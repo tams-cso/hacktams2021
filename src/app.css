@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Open+Sans:wght@400;500;700&display=swap');
+
+#root {
+    --title-font: 'Patrick Hand', sans-serif;
+    --main-font: 'Open Sans', sans-serif;
+}
+
+.app {
+    width: 100%;
+    padding-bottom: 0.01rem;
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.logo {
+    height: 5rem;
+    padding: 0.1rem;
+}
