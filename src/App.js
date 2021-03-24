@@ -1,11 +1,16 @@
-import './App.css';
+import React from 'react';
+import './app.css';
 
-function App() {
-    return (
-        <div className="App">
-            <div></div>
-        </div>
-    );
+import { ReactComponent as Duck } from './images/logo-2021.svg';
+
+class App extends React.Component {
+    render() {
+        return (
+            <div className="app">
+                <Duck className="logo"></Duck>
+            </div>
+        );
+    }
 }
 
 export default App;
