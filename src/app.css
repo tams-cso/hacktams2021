@@ -6,6 +6,7 @@
 }
 
 .app {
+    background: #cdf8fa;
     width: 100%;
     padding-bottom: 0.01rem;
     font-family: var(--main-font);
@@ -16,4 +17,9 @@
 .logo {
     height: 5rem;
     padding: 0.1rem;
+}
+
+.more {
+    height: 50vw;
+    margin-bottom: 50px;
 }
