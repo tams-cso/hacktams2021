@@ -4,7 +4,7 @@ import './footer.css';
 import FB from '../images/fb_icon.png';
 import Insta from '../images/instagram_icon.png';
 import Twitter from '../images/twitter_icon.svg';
-import YouTube from '../images/yt_icon_rgb.png';
+/*import YouTube from '../images/yt_icon_rgb.png';*/
 
 class Footer extends React.Component {
     openSite = (site) => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from './components/home';
-import Sponsors from './components/sponsors';
+/*import Sponsors from './components/sponsors';*/
 import Footer from './components/footer';
 import './app.css';
 
@@ -10,7 +10,7 @@ class App extends React.Component {
     constructor(props) {
         super(props);
         this.home = React.createRef();
-        this.sponsors = React.createRef();
+        /*this.sponsors = React.createRef();*/
         this.footer = React.createRef();
     }
     render() {

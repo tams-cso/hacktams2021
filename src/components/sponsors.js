@@ -1,6 +1,6 @@
 import React from 'react';
 import Vault from '../images/vault.png';
-import Door from '../images/doors.svg';
+/*import Door from '../images/doors.svg';*/
 import Default from '../images/raw.png';
 import './sponsors.css';
 
