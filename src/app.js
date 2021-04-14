@@ -1,5 +1,7 @@
 import React from 'react';
+import Home from './components/home';
 import Sponsors from './components/sponsors';
+import Footer from './components/footer';
 import './app.css';
 
 import { ReactComponent as Duck } from './images/logo-2021.svg';
@@ -7,16 +9,17 @@ import { ReactComponent as Duck } from './images/logo-2021.svg';
 class App extends React.Component {
     constructor(props) {
         super(props);
+        this.home = React.createRef();
         this.sponsors = React.createRef();
+        this.footer = React.createRef();
     }
     render() {
         return (
             <div className="app">
                 <Duck className="logo"></Duck>
-                <div className="more"></div>
-                <Sponsors reference={this.sponsors} />
-                <div className="more"></div>
-                <div className="more"></div>
+                <Home reference={this.home} />
+                {/*<Sponsors reference={this.sponsors} />*/}
+                <Footer reference={this.contact} />
             </div>
         );
     }

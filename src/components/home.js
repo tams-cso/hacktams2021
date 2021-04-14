@@ -5,7 +5,12 @@ class Home extends React.Component {
     render() {
         return (
             <div className="home">
-                <div></div>
+                <div className="home-container">
+                    <h1 className="home-title">hackTAMS</h1>
+                    <button className="home-register" onClick={this.submit}>
+                        Register Now!
+                    </button>
+                </div>
             </div>
         );
     }

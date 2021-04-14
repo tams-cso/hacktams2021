@@ -1,0 +1,29 @@
+/*Footer stuff*/
+.footer {
+    margin: 0 15vw 1rem;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.footer-info {
+    margin: 0 10vw;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    color: white;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-item {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.footer-item:hover {
+    transition: 0.3s;
+    transform: scale(1.15);
+}
