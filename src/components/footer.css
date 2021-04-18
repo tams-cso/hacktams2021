@@ -1,6 +1,5 @@
 /*Footer stuff*/
-h2 {
-}
+
 .footer {
     margin: 0 0vw 10rem;
     padding-top: 5rem;
@@ -13,6 +12,7 @@ h2 {
     padding-bottom: 2rem;
     margin: 0 5vw;
 }
+
 .footer-info {
     float: left;
     margin: 0 10vw;
