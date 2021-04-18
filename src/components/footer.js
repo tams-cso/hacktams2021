@@ -14,12 +14,11 @@ class Footer extends React.Component {
     render() {
         return (
             <div className="footer" ref={this.props.reference}>
-                <h1 className="footer-title">Contact Us!</h1>
+                <h2 className="footer-title">Contact Us!</h2>
                 <p className="footer-info">
-                    Made with &hearts; in Denton, Texas!<br></br>
-                    Contact us at <a href="mailto: team@hacktams.org">team@hacktams.org</a>
-                    <br></br>
-                    Want to sponsor us? Email us at <a href="mailto:sponsorship@hacktams.org">sponsorship@hacktams.org</a>
+                    Contact us at <a href="mailto: team@hacktams.org">team@hacktams.org</a>!
+                    <br></br> 
+                    Want to sponsor us? Email us at <a href="mailto:sponsorship@hacktams.org">sponsorship@hacktams.org</a>!
                 </p>
                 <div className="footer-links">
                     <img
