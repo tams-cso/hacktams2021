@@ -14,6 +14,14 @@ h1 {
     color: white;
 }
 
+h2 {
+    text-align: center;
+    font-family: var(--title-font);
+    font-size: 3.5rem;
+    margin: 1rem 0;
+    color: white; 
+}
+
 .app {
     background: linear-gradient(black 0%, rgb(71, 1, 169) 20%, rgb(148, 0, 203) 40%);
     width: 100%;
