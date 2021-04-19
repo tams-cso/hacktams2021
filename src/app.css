@@ -3,6 +3,7 @@
 #root {
     --title-font: 'Patrick Hand', sans-serif;
     --main-font: 'Open Sans', sans-serif;
+    --text-primary: #ffffff;
 }
 
 h1 {
