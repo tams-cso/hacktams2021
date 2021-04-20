@@ -6,6 +6,7 @@ import Footer from './components/footer';
 import './app.css';
 
 import { ReactComponent as Duck } from './images/logo-2021.svg';
+import Speakers from './components/speakers';
 
 class App extends React.Component {
     constructor(props) {
@@ -22,6 +23,7 @@ class App extends React.Component {
                 <Home reference={this.home} />
                 <FAQ reference={this.faq} />
                 {/*<Sponsors reference={this.sponsors} />*/}
+                <Speakers />
                 <Footer reference={this.contact} />
             </div>
         );
