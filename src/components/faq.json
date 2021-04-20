@@ -1,0 +1,34 @@
+[
+    {
+        "question": "How does a virtual hackathon work?",
+        "answer": "Unfortunately, we are unable to host an in-person event due to COVID-19 restrictions. However, we will have an interactive Discord server, Zoom for workshops, and Twitch for ceremonies. Additionally, we will be using Devpost for project submissions and judging. All of this information will be available on our live site, a page that will be updated frequently throughout the event with information!"
+    },
+    {
+        "question": "Who can attend?",
+        "answer": "To attend as a hacker, you need to be a high school student and between the ages of 13 and 18 years old. Unfortunately, we are unable to accept college students at this time. However, you can help out high school students by <a href='https://hacktams.org/mentor'>becoming a mentor</a>! Additionally, you can consider attending <a href='https://unthackathon.com/'>HackUNT</a>, a college hackathon organized on the same campus as hackTAMS!"
+    },
+    {
+        "question": "What if I can't code?",
+        "answer": "That’s okay! Experience isn't required to attend. In addition, we will host workshops and have mentors present to help you out. We also have a Design track where you build a non-functioning mockup of your project."
+    },
+    {
+        "question": "Do I have to pay for registration?",
+        "answer": "Admission to hackTAMS is free! This includes workshops, mentors, and swag!"
+    },
+    {
+        "question": "Are you offering prizes? How will swag work?",
+        "answer": "Yes, we are offering prizes! Currently, we are finalizing the prize pool which is worth over $15,000! Final prize pool will be posted to <a target='_blank' rel='noopener noreferrer' href='https://hacktams2020f.devpost.com/'>Devpost</a>. In terms of swag, we will be shipping shirts, stickers, and a few other goodies to the first 150 participants that register!"
+    },
+    {
+        "question": "How do teams work?",
+        "answer": "Team can consist of 1-4 high school students. If you do not have a team, we will be hosting a team formation event right after the opening ceremony. However, you can also compete by yourself."
+    },
+    {
+        "question": "Where can I find a schedule?",
+        "answer": "We plan to release a definitive schedule as we get closer to the event but plan on attending our opening ceremony at 6pm CST for more information!"
+    },
+    {
+        "question": "Any rules?",
+        "answer": "Official rules can be found on our <a target='_blank' rel='noopener noreferrer' href='https://hacktams2020f.devpost.com/'>Devpost</a> very soon."
+    }
+]
