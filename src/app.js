@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from './components/home';
-/*import Sponsors from './components/sponsors';*/
+import Sponsors from './components/sponsors';
 import Footer from './components/footer';
 import './app.css';
 
@@ -11,7 +11,7 @@ class App extends React.Component {
     constructor(props) {
         super(props);
         this.home = React.createRef();
-        /*this.sponsors = React.createRef();*/
+        this.sponsors = React.createRef();
         this.footer = React.createRef();
     }
     render() {
@@ -19,8 +19,8 @@ class App extends React.Component {
             <div className="app">
                 <Duck className="logo"></Duck>
                 <Home reference={this.home} />
-                {/*<Sponsors reference={this.sponsors} />*/}
                 <Speakers />
+                <Sponsors reference={this.sponsors} />
                 <Footer reference={this.contact} />
             </div>
         );

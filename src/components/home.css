@@ -1,3 +1,7 @@
+p {
+    color: white;
+}
+
 .home {
     margin: 0 15vw;
     padding-bottom: 5rem;
@@ -25,17 +29,17 @@
 .home-register {
     width: 10rem;
     margin: 1rem;
+    margin-bottom: 0.5rem;
     border: 0.25rem solid black;
     border-radius: 0.5rem;
 
     font-family: var(--title-font);
     font-size: 1.5rem;
-    background-color: white;
-
-    cursor: pointer;
+    background-color: #ddd;
     transition: 0.3s;
 }
 
 .home-register:hover {
     background-color: #ddd;
 }
+
