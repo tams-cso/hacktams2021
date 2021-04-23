@@ -10,17 +10,19 @@
 .large {
     transform: scale(1);
     transition: 0.3s;
-    z-index: 0;
+    cursor: pointer;
 }
 
 .medium {
     transform: scale(0.8);
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .small {
     transform: scale(0.6);
     transition: 0.3s;
+    cursor: pointer;
 }
 
 .large:hover {

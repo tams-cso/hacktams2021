@@ -1,6 +1,6 @@
 import React from 'react';
 import Frame from '../images/template.svg';
-import Default from '../images/raw.png';
+/*import Default from '../images/raw.png';*/
 import './sponsors.css';
 
 class Sponsors extends React.Component {
@@ -9,9 +9,7 @@ class Sponsors extends React.Component {
             <div className="sponsors" >
                 <h2>Our Sponsors</h2>
                 <div className="break"></div>
-                <a href="https://google.com/" className="sponsors large">
-                    <img src={Frame} alt="Frame"/>
-                </a>
+                <img src={Frame} alt="Frame" className="sponsors large" />
                 <div className="break"></div>
                 <img src={Frame} alt="Frame" className="sponsors medium" />
                 <img src={Frame} alt="Frame" className="sponsors medium" />
