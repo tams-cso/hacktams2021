@@ -1,0 +1,47 @@
+p {
+    text-align: center;
+}
+
+.about {
+    margin: 0 15vw;
+}
+
+.tracks-container {
+    text-align:center;
+}
+
+.track-switch {
+    height: 100%;
+    width: 6rem;
+    margin: 0;
+    position: relative;
+    border: none;
+    
+    font-size: 1rem;
+    background-color: transparent;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.track.hack.right {
+    display: none;
+}
+
+.track.learn.left {
+    display: none;
+}
+
+.track.hack.left {
+    display: block;
+}
+
+.track.learn.right {
+    display: block;
+}
+
+.line {
+    border-left: 3px solid white;
+    height: 1.5rem;
+    display:inline-block;
+    text-align: center;
+  }
