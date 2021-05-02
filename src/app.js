@@ -25,7 +25,7 @@ class App extends React.Component {
                 <Duck className="logo"></Duck>
                 <Home reference={this.home} />
                 <About reference={this.about} />
-                <Speakers reference={this.speakers}/>
+                <Speakers reference={this.speakers} />
                 <FAQ reference={this.faq} />
                 <Sponsors reference={this.sponsors} />
                 <Footer reference={this.contact} />

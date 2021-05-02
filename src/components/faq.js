@@ -6,16 +6,12 @@ import './faq.css';
 const FAQ = (props) => (
     <section>
         <div className="wrap">
-            <h2>
-                FAQs
-            </h2>
-            {
-                faqs.map(v => (
-                    <FAQBox question={v.question} answer={v.answer} />
-                ))
-            }
+            <h2>FAQs</h2>
+            {faqs.map((v) => (
+                <FAQBox question={v.question} answer={v.answer} />
+            ))}
         </div>
     </section>
-)
+);
 
 export default FAQ;
