@@ -1,19 +1,20 @@
 import React from 'react';
 import Home from './components/home';
 import About from './components/about';
+import Speakers from './components/speakers';
 import FAQ from './components/faq';
 import Sponsors from './components/sponsors';
 import Footer from './components/footer';
 import './app.css';
 
 import { ReactComponent as Duck } from './images/logo-2021.svg';
-import Speakers from './components/speakers';
 
 class App extends React.Component {
     constructor(props) {
         super(props);
         this.home = React.createRef();
         this.about = React.createRef();
+        this.speakers = React.createRef();
         this.faq = React.createRef();
         this.sponsors = React.createRef();
         this.footer = React.createRef();
@@ -24,7 +25,7 @@ class App extends React.Component {
                 <Duck className="logo"></Duck>
                 <Home reference={this.home} />
                 <About reference={this.about} />
-                <Speakers />
+                <Speakers reference={this.speakers}/>
                 <FAQ reference={this.faq} />
                 <Sponsors reference={this.sponsors} />
                 <Footer reference={this.contact} />

@@ -6,7 +6,8 @@ class Speaker extends React.Component {
         return (
             <div className="speaker">
                 <img className="speaker-img" alt="speaker-img" />
-                <p className="speaker-name">{this.props}</p>
+                <p className="speaker-name">{this.props.info.name}</p>
+                {/* TODO short description here maybe, or just image and name*/}
             </div>
         );
     }

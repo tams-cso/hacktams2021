@@ -1,5 +1,5 @@
 import React from 'react';
-import faqs from '../data/faq.json';
+import faqs from '../data/faqData.json';
 import FAQBox from './faq-box';
 import './faq.css';
 
