@@ -6,6 +6,16 @@
     --text-primary: #ffffff;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(68, 199, 186);
+    transition: 0.3s;
+}
+
+a:hover {
+    color: rgb(75, 227, 212);
+}
+
 h1 {
     text-align: center;
     font-family: var(--title-font);
@@ -22,13 +32,23 @@ h2 {
     color: white; 
 }
 
+h3 {
+    text-align: center;
+    font-family: var(--title-font);
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: white; 
+}
+
 .app {
-    background: linear-gradient(black 0%, rgb(71, 1, 169) 20%, rgb(148, 0, 203) 40%);
+    display: flex;
+    flex-direction: column;
     width: 100%;
     padding-bottom: 0.01rem;
     font-family: var(--main-font);
     font-weight: 500;
     font-size: 1rem;
+    background-color: #222;
 }
 
 .logo {

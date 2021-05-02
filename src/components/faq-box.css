@@ -10,6 +10,7 @@
     max-height: 30px;
     overflow: hidden;
     cursor: pointer;
+<<<<<<< HEAD
     font-family: "Arial, Helvetica, sans-serif";
  }
  
@@ -25,3 +26,20 @@
  .answer {
     font-family: "Arial, Helvetica, sans-serif";
  }
+=======
+    font-family: 'Arial, Helvetica, sans-serif';
+}
+
+.faqbox.open {
+    max-height: 500px;
+    background-color: green;
+}
+
+.question {
+    font-size: 1.3em;
+}
+
+.answer {
+    font-family: 'Arial, Helvetica, sans-serif';
+}
+>>>>>>> 0e676751c4b5c0a20e32a24c9c7fbc35adfc0756
