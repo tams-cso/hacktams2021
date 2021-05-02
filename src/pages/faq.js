@@ -1,6 +1,6 @@
 import React from 'react';
 import faqs from '../data/faqData.json';
-import FAQBox from './faq-box';
+import FAQBox from '../components/faq-box';
 import './faq.css';
 
 const FAQ = (props) => (

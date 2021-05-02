@@ -1,5 +1,5 @@
 import React from 'react';
-import './speakers.css';
+import './speaker.css';
 
 class Speaker extends React.Component {
     render() {

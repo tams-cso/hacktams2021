@@ -3,12 +3,13 @@ p {
 }
 
 .home {
-    margin: 0 15vw;
-    padding-bottom: 5rem;
+    padding: 5rem 15vw;
 
     height: calc(100vh - 10rem);
     display: flex;
     justify-content: center;
+    
+    background: linear-gradient(black 0%, rgb(71, 1, 169) 40%, rgb(148, 0, 203) 70%);
 }
 
 

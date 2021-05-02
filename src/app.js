@@ -1,13 +1,11 @@
 import React from 'react';
-import Home from './components/home';
-import About from './components/about';
-import Speakers from './components/speakers';
-import FAQ from './components/faq';
-import Sponsors from './components/sponsors';
-import Footer from './components/footer';
+import Home from './pages/home';
+import About from './pages/about';
+import Speakers from './pages/speakers';
+import FAQ from './pages/faq';
+import Sponsors from './pages/sponsors';
+import Footer from './pages/footer';
 import './app.css';
-
-import { ReactComponent as Duck } from './images/logo-2021.svg';
 
 class App extends React.Component {
     constructor(props) {
@@ -22,7 +20,6 @@ class App extends React.Component {
     render() {
         return (
             <div className="app">
-                <Duck className="logo"></Duck>
                 <Home reference={this.home} />
                 <About reference={this.about} />
                 <Speakers reference={this.speakers} />

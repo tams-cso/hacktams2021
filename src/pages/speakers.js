@@ -1,5 +1,5 @@
 import React from 'react';
-import Speaker from './speaker';
+import Speaker from '../components/speaker';
 import data from '../data/speakerData.json';
 import './speakers.css';
 
