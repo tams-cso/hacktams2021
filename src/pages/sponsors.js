@@ -9,14 +9,14 @@ class Sponsors extends React.Component {
             <div className="sponsors" >
                 <h2>Our Sponsors</h2>
                 <div className="break"></div>
-                <img src={Frame} alt="Frame" className="sponsors large" />
+                <img src={Frame} alt="Frame" className="sponsor large" />
                 <div className="break"></div>
-                <img src={Frame} alt="Frame" className="sponsors medium" />
-                <img src={Frame} alt="Frame" className="sponsors medium" />
+                <img src={Frame} alt="Frame" className="sponsor medium" />
+                <img src={Frame} alt="Frame" className="sponsor medium" />
                 <div className="break"></div>
-                <img src={Frame} alt="Frame" className="sponsors small" />
-                <img src={Frame} alt="Frame" className="sponsors small" />
-                <img src={Frame} alt="Frame" className="sponsors small" />
+                <img src={Frame} alt="Frame" className="sponsor small" />
+                <img src={Frame} alt="Frame" className="sponsor small" />
+                <img src={Frame} alt="Frame" className="sponsor small" />
             </div >
         );
     }
