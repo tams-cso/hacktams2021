@@ -9,7 +9,7 @@ p {
     display: flex;
     justify-content: center;
     
-    background: linear-gradient(black 0%, rgb(71, 1, 169) 40%, rgb(148, 0, 203) 70%);
+    background: linear-gradient(black 5%, rgb(71, 1, 169) 50%, rgb(148, 0, 203) 80%);
 }
 
 
