@@ -1,9 +1,9 @@
 import React from 'react';
-import Home from './components/home';
-import About from './components/about';
-import FAQ from './components/faq';
-import Sponsors from './components/sponsors';
-import Footer from './components/footer';
+import Home from './pages/home';
+import About from './pages/about';
+import FAQ from './pages/faq';
+import Sponsors from './pages/sponsors';
+import Footer from './pages/footer';
 import './app.css';
 
 import { ReactComponent as Duck } from './images/logo-2021.svg';
