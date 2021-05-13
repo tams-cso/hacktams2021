@@ -9,16 +9,16 @@
     max-height: 30px;
     overflow: hidden;
     cursor: pointer;
- }
- 
- .faqbox.open {
+}
+
+.faqbox.open {
     max-height: 500px;
- }
- 
- .question {
+}
+
+.question {
     font-size: 1.3em;
- }
- 
- .answer {
+}
+
+.answer {
     font-family: 'Grandstander';
- }
+}

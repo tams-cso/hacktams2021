@@ -1,9 +1,10 @@
   
 import React from 'react';
-import faqs from '../components/faq.json';
+import faqs from '../data/faqData.json';
 import FAQBox from '../components/faq-box';
 
-const FAQ = (props) => (
+class FAQ extends React.Component{
+    render = () => (
     <section>
         <div className="wrap">
             {
@@ -13,6 +14,7 @@ const FAQ = (props) => (
             }
         </div>
     </section>
-)
+    );
+}
 
 export default FAQ;
