@@ -14,7 +14,7 @@ class Footer extends React.Component {
     render() {
         return (
             <div className="footer" ref={this.props.reference}>
-                <h2 className="footer-title">Contact Us!</h2>
+                <h1 className="footer-title">Contact Us!</h1>
                 <p className="footer-info">
                     Contact us at <a href="mailto: team@hacktams.org">team@hacktams.org</a>!<br></br>
                     Want to sponsor us? Email us at{' '}

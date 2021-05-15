@@ -7,7 +7,7 @@ class Sponsors extends React.Component {
     render() {
         return (
             <div className="sponsors">
-                <h2>Our Sponsors</h2>
+                <h1>Our Sponsors</h1>
                 <div className="break"></div>
                 <img src={Frame} alt="Frame" className="sponsor large" />
                 <div className="break"></div>
