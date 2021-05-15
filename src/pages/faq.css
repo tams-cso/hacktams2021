@@ -2,16 +2,16 @@
     margin: 5rem 15vw;
 }
 
-.faq-dropdown-button-container{
+.faq-dropdown-button-container {
     background-color: lightgray;
 }
 
-.faq-dropdown-section{
+.faq-dropdown-section {
     background-color: rgb(31, 77, 31);
-    color:white;
+    color: white;
 }
 
-.closed{
-    height:0px;
-    background-color:black;
+.closed {
+    height: 0px;
+    background-color: black;
 }
