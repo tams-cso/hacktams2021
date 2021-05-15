@@ -8,10 +8,9 @@ p {
     height: calc(100vh - 10rem);
     display: flex;
     justify-content: center;
-    
+
     background: linear-gradient(black 5%, rgb(71, 1, 169) 50%, rgb(148, 0, 203) 80%);
 }
-
 
 .home-title {
     margin: 0;
@@ -43,4 +42,3 @@ p {
 .home-register:hover {
     background-color: #ddd;
 }
-
