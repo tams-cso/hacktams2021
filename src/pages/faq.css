@@ -1,5 +1,6 @@
-.wrap {
-    margin: 5rem 15vw;
+.faq {
+    padding: 5rem 15vw;
+    background-color: #212121;
 }
 
 .faq-dropdown-button-container {
