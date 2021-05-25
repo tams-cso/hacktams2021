@@ -24,7 +24,7 @@ class About extends React.Component {
                 A hackathon is a coding marathon where students design, build, and present a project — typically software, and sometimes hardware — within a short period of time.
                 Students have access to mentors, speakers, workshops, and networking opportunities while working on their project.</p>
                 <p>A hackathon is a coding marathon where students design, build, and present a project — typically software, and sometimes hardware — within a short period of time.
-                Students have access to mentors, speakers, workshops, and networking opportunities while working on their project.</p>
+                Students have access to mentors, speakers, workshops, and networking opportunityies while working on their project.</p>
                 <div className="tracks-container" >
                     <button className={`track-switch left ${this.state.toggle}-active`} onClick={this.changeSwitch.bind(this, 'left')}>
                         <h3>Hack</h3>

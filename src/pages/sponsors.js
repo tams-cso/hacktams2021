@@ -1,5 +1,5 @@
 import React from 'react';
-import Frame from '../images/template.svg';
+import Frame from '../images/sponsor_frame.svg';
 /*import Default from '../images/raw.png';*/
 import './sponsors.css';
 
