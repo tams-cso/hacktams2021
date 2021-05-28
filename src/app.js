@@ -7,7 +7,7 @@ import Footer from './pages/footer';
 import './app.css';
 
 import { ReactComponent as Duck } from './images/logo-2021.svg';
-import Speakers from './components/speakers';
+import Speakers from './pages/speakers';
 
 class App extends React.Component {
     constructor(props) {
@@ -21,7 +21,6 @@ class App extends React.Component {
     render() {
         return (
             <div className="app">
-                <Duck className="logo"></Duck>
                 <Home reference={this.home} />
                 <About reference={this.about} />
                 <div className="section-break sb1" />

@@ -13,7 +13,6 @@ class Sponsors extends React.Component {
                 <div className="break"></div>
                 <img src={Frame} alt="Frame" className="sponsor medium" />
                 <img src={Frame} alt="Frame" className="sponsor medium" />
-                <div className="break"></div>
                 <img src={Frame} alt="Frame" className="sponsor small" />
                 <img src={Frame} alt="Frame" className="sponsor small" />
                 <img src={Frame} alt="Frame" className="sponsor small" />
