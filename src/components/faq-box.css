@@ -1,7 +1,7 @@
 .faqbox {
     width: calc(100% - 30px);
     
-    background-image: url("../images/faq-box-background-closed.png");
+    background-image: url("https://hacktams-backend.s3.us-east-2.amazonaws.com/images/faq-box-background-closed.png");
     
     background-size:100% 100%;
     padding: 15px;
@@ -16,7 +16,7 @@
 
 .faqbox.open {
     max-height: 500px;
-    background:url("../images/faq-box-background-closed.png") no-repeat, rgb(21, 88, 21);
+    background:url("https://hacktams-backend.s3.us-east-2.amazonaws.com/images/faq-box-background-closed.png") no-repeat, rgb(21, 88, 21);
     background-size:100% 2.5rem, auto;
     border-color:rgb(52, 90, 82);
     color:white;
