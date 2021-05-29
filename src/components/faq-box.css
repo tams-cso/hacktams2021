@@ -1,6 +1,9 @@
 .faqbox {
     width: calc(100% - 30px);
-    background: #616161;
+    
+    background-image: url("../images/faq-box-background-closed.png");
+    
+    background-size:100% 100%;
     padding: 15px;
     margin:10px;
     color: #fff;
@@ -13,15 +16,13 @@
 
 .faqbox.open {
     max-height: 500px;
-    background-color:rgb(21, 88, 21);
+    background:url("../images/faq-box-background-closed.png") no-repeat, rgb(21, 88, 21);
+    background-size:100% 2.5rem, auto;
     border-color:rgb(21, 88, 21);
     color:white;
 }
 
 .question {
     font-size: 1.3em;
-}
-
-.answer {
-    font-family: 'Grandstander';
+    text-align: center;
 }
