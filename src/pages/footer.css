@@ -1,12 +1,31 @@
 /*Footer stuff*/
 
 .footer {
-    padding: 5rem 15vw 1rem;
+    padding: 0 15vw 1rem;
     background-color: #0f0f0f;
 }
 
-.footer-title {
+.footer-signs {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
     padding-bottom: 2rem;
+}
+
+.footer-sign {
+    /* height: 10rem;
+    width: auto; */
+    margin: 0;
+}
+
+.footer-item {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-item:hover {
+    transform: scale(1.15);
 }
 
 .footer-info {
@@ -18,16 +37,4 @@
 .footer-links {
     display: flex;
     justify-content: space-evenly;
-}
-
-.footer-item {
-    height: 40px;
-    width: 40px;
-    margin-right: 4rem;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.footer-item:hover {
-    transform: scale(1.15);
 }
