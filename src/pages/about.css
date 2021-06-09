@@ -10,10 +10,10 @@
 
 .track-switch {
     height: 100%;
-    width: 6rem;
-    margin: 0;
+    margin: 0.5px;
     position: relative;
     border: none;
+    display: inline-block;
 
     font-size: 1rem;
     background-color: transparent;
@@ -21,7 +21,20 @@
     cursor: pointer;
 }
 
+
 .track.hack.right {
+    display: none;
+}
+
+.track.hack.middle {
+    display: none;
+}
+
+.track.design.left {
+    display: none;
+}
+
+.track.design.right {
     display: none;
 }
 
@@ -29,7 +42,15 @@
     display: none;
 }
 
+.track.learn.middle {
+    display: none;
+}
+
 .track.hack.left {
+    display: block;
+}
+
+.track.design.middle {
     display: block;
 }
 

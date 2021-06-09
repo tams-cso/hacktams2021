@@ -1,7 +1,7 @@
 /*Footer stuff*/
 
 .footer {
-    padding: 5rem 15vw 1rem;
+    padding: 5rem 15vw 3rem;
     background-color: #0f0f0f;
 }
 
@@ -13,6 +13,7 @@
     margin: 1rem 0;
     font-size: 1rem;
     color: white;
+    float: left;
 }
 
 .footer-links {

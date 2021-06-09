@@ -32,19 +32,26 @@ class About extends React.Component {
                     speakers, workshops, and networking opportunities while working on their project.
                 </p>
                 <div className="tracks-container">
-                    <button
+                    <div
                         className={`track-switch left ${this.state.toggle}-active`}
                         onClick={this.changeSwitch.bind(this, 'left')}
                     >
                         <h3>Hack</h3>
-                    </button>
+                    </div>
                     <div className="line"></div>
-                    <button
+                    <div
+                        className={`track-switch middle ${this.state.toggle}-active`}
+                        onClick={this.changeSwitch.bind(this, 'middle')}
+                    >
+                        <h3>Design</h3>
+                    </div>
+                    <div className="line"></div>
+                    <div
                         className={`track-switch right ${this.state.toggle}-active`}
                         onClick={this.changeSwitch.bind(this, 'right')}
                     >
                         <h3>Learn</h3>
-                    </button>
+                    </div>
                 </div>
                 <div className={`track hack ${this.state.toggle}`}>
                     <p>
@@ -55,6 +62,11 @@ class About extends React.Component {
                             previous projects on Devpost
                         </a>
                         .
+                    </p>
+                </div>
+                <div className={`track design ${this.state.toggle}`}>
+                    <p>
+                        
                     </p>
                 </div>
                 <div className={`track learn ${this.state.toggle}`}>
