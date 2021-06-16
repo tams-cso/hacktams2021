@@ -1,4 +1,6 @@
 import React from 'react';
+import { ReactComponent as Left } from '../images/website-top-left.svg';
+import { ReactComponent as Right } from '../images/website-top-right.svg';
 import './home.css';
 
 class Home extends React.Component {
@@ -17,6 +19,8 @@ class Home extends React.Component {
                     </div>
                     <p>Registration opens in August!</p>
                 </div>
+                <Left alt="left-building" className="home-building left-building" />
+                <Right alt="right-building" className="home-building right-building" />
             </div>
         );
     }
