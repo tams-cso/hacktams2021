@@ -19,8 +19,8 @@ class Home extends React.Component {
                     </div>
                     <p>Registration opens in August!</p>
                 </div>
-                <Left className="home-building left-building" />
-                <Right className="home-building right-building" />
+                <Left alt="left-building" className="home-building left-building" />
+                <Right alt="right-building" className="home-building right-building" />
             </div>
         );
     }
