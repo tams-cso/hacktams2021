@@ -1,7 +1,7 @@
 .home {
     /* padding: 5rem 15vw; */
 
-    height: calc(100vh - 10rem);
+    /* height: calc(100vh - 10rem); */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -45,7 +45,7 @@
 
 .home-building {
     position: absolute;
-    width: 35vw;
+    width: 40vw;
 }
 
 .left-building {
