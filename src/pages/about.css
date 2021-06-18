@@ -1,26 +1,48 @@
 .about {
-    padding: 5rem 15vw;
     background-color: #3a3a3a;
     text-align: center;
 }
 
+.info {
+    margin-right: 15vw;
+    margin-left: 15vw;
+}
+
 .tracks-container {
-    text-align: center;
+    border: 10px solid #ffffff;
+    box-shadow: 0 0 15px #ffffff;
+    background-color: #303030;
+}
+
+.track-switch-container {
+    display: flex;
+    justify-content: center;
 }
 
 .track-switch {
-    height: 100%;
-    margin: 0.5px;
-    position: relative;
-    border: none;
-    display: inline-block;
+    width: 10rem;
+    margin: 1rem;
+    margin-bottom: 0.5rem;
+    border: 0.2rem solid #202020;
+    border-radius: 0.5rem;
 
-    font-size: 1rem;
-    background-color: transparent;
-    transition: 0.5s;
+    font-weight: 700;
+    font-size: 1.3rem;
+    background-color: #4a4a4a;
+    transition: 0.3s;
     cursor: pointer;
+
+    flex-direction: row;
 }
 
+.track-switch:hover {
+    box-shadow: 0 0 0.5rem 0.05rem #dddddd;
+    border: 0.2rem solid #303030;
+}
+
+.track {
+    margin: 1rem;
+}
 
 .track.hack.right {
     display: none;
@@ -58,9 +80,20 @@
     display: block;
 }
 
-.line {
-    border-left: 3px solid white;
-    height: 1.5rem;
-    display: inline-block;
-    text-align: center;
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.top {
+    margin-top: -29px;
+    transform: scale(0.85);
+}
+
+.bottom {
+    transform: scale(0.9);
+}
+
+.item {
+    margin: 1rem;
 }

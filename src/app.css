@@ -52,6 +52,8 @@ h3 {
 
 .section-break {
     height: 0.8rem;
+    position: relative;
+    z-index: 1;
 }
 
 .sb1 {
