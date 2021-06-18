@@ -14,12 +14,14 @@
 }
 
 .footer-sign {
-    /* height: 10rem;
-    width: auto; */
-    margin: 0;
+    width: 20rem;
+    height: auto;
+    margin-right: 3rem;
 }
 
 .footer-item {
+    width: 4rem;
+    height: auto;
     cursor: pointer;
     transition: 0.3s;
 }

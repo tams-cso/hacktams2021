@@ -1,17 +1,12 @@
 .home {
-    padding: 5rem 15vw;
+    /* padding: 5rem 15vw; */
 
-    height: calc(100vh - 10rem);
+    /* height: calc(100vh - 10rem); */
+    height: 100vh;
     display: flex;
     justify-content: center;
 
     background: linear-gradient(black 5%, #4701a9 50%, #9400cb 80%);
-}
-
-.home-title {
-    margin: 0;
-    font-family: var(--title-font);
-    font-size: 6rem;
 }
 
 .home-container {
@@ -20,6 +15,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.home-title {
+    margin: 0;
+    font-family: var(--title-font);
+    font-size: 6rem;
 }
 
 .home-register {
@@ -40,4 +41,19 @@
 .home-register:hover {
     box-shadow: 0 0 0.5rem 0.05rem #dddddd;
     border: 0.2rem solid #303030;
+}
+
+.home-building {
+    position: absolute;
+    width: 40vw;
+}
+
+.left-building {
+    left: 0;
+    bottom: 0;
+}
+
+.right-building {
+    right: 0;
+    bottom: 0;
 }

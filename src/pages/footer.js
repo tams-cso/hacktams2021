@@ -16,16 +16,19 @@ class Footer extends React.Component {
         return (
             <div className="footer" ref={this.props.reference}>
                 <div className="footer-signs">
-                    <Sign className="footer-sign" />
+                    <Sign alt="Contact Us" className="footer-sign" />
                     <Facebook
+                        alt="Facebook"
                         className="footer-item"
                         onClick={this.openSite.bind(this, 'https://www.facebook.com/hackTAMS')}
                     />
                     <Instagram
+                        alt="Instagram"
                         className="footer-item"
                         onClick={this.openSite.bind(this, 'https://www.instagram.com/hacktams/?hl=en')}
                     />
                     <Twitter
+                        alt="Twitter"
                         className="footer-item"
                         onClick={this.openSite.bind(this, 'https://twitter.com/thehackTAMS')}
                     />
