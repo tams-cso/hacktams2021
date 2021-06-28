@@ -3,6 +3,21 @@
     background-color: #212121;
 }
 
+.q_and_a{
+    display:flex;
+    flex-direction:row;
+}
+
+.col-left{
+    margin: 0.5rem;
+    width: 60%
+}
+
+.col-right{
+    margin: 0.5rem;
+    width: 60%
+}
+
 .faq-dropdown-button-container {
     background-color: lightgray;
 }
