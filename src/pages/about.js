@@ -20,21 +20,6 @@ class About extends React.Component {
 
     render() {
         return (
-<<<<<<< HEAD
-            <div className="about" id="about">
-                <h1>About</h1>
-                <p>
-                    hackTAMS is an annual hackathon organized by students at the Texas Academy of Mathematics and
-                    Science. Our event brings high school students from across the DFW area to showcase their talent and
-                    creativity. A hackathon is a coding marathon where students design, build, and present a project —
-                    typically software, and sometimes hardware — within a short period of time. Students have access to
-                    mentors, speakers, workshops, and networking opportunities while working on their project.
-                </p>
-                <p>
-                    A hackathon is a coding marathon where students design, build, and present a project — typically
-                    software, and sometimes hardware — within a short period of time. Students have access to mentors,
-                    speakers, workshops, and networking opportunities while working on their project.
-=======
             <div className="about">
                 <img src={Top} alt="lights" className="top"></img>
                 <div className="info">
@@ -45,7 +30,6 @@ class About extends React.Component {
                         creativity. A hackathon is a coding marathon where students design, build, and present a project —
                         typically software, and sometimes hardware — within a short period of time. Students have access to
                         mentors, speakers, workshops, and networking opportunities while working on their project.
->>>>>>> 88f9b5dd526fa0f8a1cf607cc41ac42b5091f8c5
                 </p>
                     <p>
                         A hackathon is a coding marathon where students design, build, and present a project — typically
