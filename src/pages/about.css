@@ -12,6 +12,7 @@
     border: 10px solid #ffffff;
     box-shadow: 0 0 15px #ffffff;
     background-color: #303030;
+    margin-bottom: 1rem;
 }
 
 .track-switch-container {
@@ -92,8 +93,9 @@
 
 .bottom {
     transform: scale(0.9);
+    margin-bottom: -1.1rem;
 }
 
 .item {
-    margin: 2rem;
+    margin: 0 3rem 0 3rem;
 }
