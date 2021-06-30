@@ -35,11 +35,11 @@ class Speakers extends React.Component {
                 <div className="speakers-container">
                     <div className="speakers-menu">{speakers}</div>
                     <div className="speakers-display">
-                        <img src={Side} className="side"></img>
+                        <img src={Side} alt="speakers" className="side"></img>
                     </div>
                     <div className="speakers-screen">
-                        <img src={Frame} className="display"></img>
-                        <img src={Base} className="display"></img>
+                        <img src={Frame} alt="speaker frame" className="display"></img>
+                        <img src={Base} alt="base" className="display"></img>
                     </div>
                 </div>
             </div>
