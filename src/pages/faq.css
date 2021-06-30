@@ -1,5 +1,6 @@
 .faq {
-    padding: 5rem 15vw;
+    /*padding: 5rem 15vw;*/
+    padding: 2rem;
     background-color: #212121;
 }
 
@@ -10,12 +11,14 @@
 
 .col-left{
     margin: 0.5rem;
-    width: 60%
+    margin-right:5rem;
+    width: 80%
 }
 
 .col-right{
     margin: 0.5rem;
-    width: 60%
+    margin-left:5rem;
+    width: 80%
 }
 
 .faq-dropdown-button-container {

@@ -14,7 +14,7 @@ class Footer extends React.Component {
 
     render() {
         return (
-            <div className="footer" ref={this.props.reference}>
+            <div className="footer" ref={this.props.reference} id="footer">
                 <div className="footer-signs">
                     <Sign alt="Contact Us" className="footer-sign" />
                     <Facebook

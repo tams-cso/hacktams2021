@@ -6,7 +6,7 @@ import './sponsors.css';
 class Sponsors extends React.Component {
     render() {
         return (
-            <div className="sponsors">
+            <div className="sponsors" id="sponsors">
                 <h1>Our Sponsors</h1>
                 <div className="break"></div>
                 <img src={Frame} alt="Frame" className="sponsor large" />

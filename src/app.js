@@ -1,5 +1,6 @@
 import React from 'react';
 import Home from './pages/home';
+import Navbar from './pages/navbar'
 import About from './pages/about';
 import Speakers from './pages/speakers';
 import FAQ from './pages/faq';
@@ -11,6 +12,7 @@ class App extends React.Component {
     constructor(props) {
         super(props);
         this.home = React.createRef();
+        this.navbar = React.createRef();
         this.about = React.createRef();
         this.speakers = React.createRef();
         this.faq = React.createRef();
@@ -20,6 +22,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="app">
+                <Navbar reference={this.navbar} />
                 <Home reference={this.home} />
                 <About reference={this.about} />
                 <div className="section-break sb1" />

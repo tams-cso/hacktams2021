@@ -15,9 +15,12 @@ class FAQBox extends Component {
             className={'faqbox' + (this.state.open ? ' open' : '')}
             onClick={() => this.setState({ open: !this.state.open })}
         >
-            <p className="question" style={{ margin: 0, }}>
+            <div className="question-container">
+                <div className="coloredBox" ></div>
+                <p className="question" style={{ margin: 0, }}>
                 {this.props.question}
-            </p>
+                </p>
+            </div>
             {this.state.open ? (
                 <p
                     className="answer"
