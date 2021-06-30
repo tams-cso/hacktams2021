@@ -24,6 +24,7 @@
     height: auto;
     cursor: pointer;
     transition: 0.3s;
+    margin-top: -6px;
 }
 
 .footer-item:hover {
