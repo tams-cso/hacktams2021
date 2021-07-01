@@ -26,7 +26,7 @@ class Speakers extends React.Component {
         const speakers = this.createSpeakers();
 
         return (
-            <div className="speakers">
+            <div className="speakers" id="speakers">
                 <h1>Speakers</h1>
                 <p>
                     Coming soon! Please email <a href="mailto: team@hacktams.org">team@hacktams.org</a> if you are
