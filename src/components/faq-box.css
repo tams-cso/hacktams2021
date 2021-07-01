@@ -10,13 +10,15 @@
     transition: max-height 0.6s;
     transition: background-color 0.6s;
     transition: box-shadow 0.6s;
-    max-height: 30px;
     overflow: hidden;
     cursor: pointer;
 }
 
 .question-container{
     display:flex;
+    background-color: #171717;
+    padding: 0.5rem;
+    align-items:center;
 }
 
 .coloredBox{
@@ -27,13 +29,12 @@
 }
 
 .faqbox.open {
-    max-height: 500px;
     /*background:url("https://hacktams-backend.s3.us-east-2.amazonaws.com/images/faq-box-background-closed.png") no-repeat, rgb(21, 88, 21);
     */
     background-size:100% 2.5rem, auto;
     border-color:transparent;
     color:white;
-    box-shadow: 0rem 0rem 0.5rem #fff;
+    box-shadow: 0rem 0rem 0.3rem rgb(133, 133, 133);
 }
 
 .question {

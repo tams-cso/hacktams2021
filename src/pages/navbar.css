@@ -1,14 +1,14 @@
 .navbar{
     color:white;
     background-color:black;
-    padding:1rem;
+    padding:0.5rem;
     position:relative;
     z-index:9999;
     display:flex;
 }
 
 .item{
-    margin:1rem;
+    margin:0.5rem;
     padding:0.5rem;
     background-color: rgb(61, 61, 61);
 }
