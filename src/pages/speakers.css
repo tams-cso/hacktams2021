@@ -6,20 +6,25 @@
 
 .speakers-container {
     display: flex;
-    flex-direction: row;
 }
 
 .speakers-menu {
     display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+    flex-direction: row;
 }
 
 .speakers-display {
-    margin: 0 0.3rem;
-    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    margin: 3rem;
+    width: 100%;
+    transform: scale(1.2);
 }
 
 .speakers-screen {
+    display: flex;
+    flex-direction: column;
     margin: 3rem;
+    width: 100%;
+    transform: scale(1.2);
 }
