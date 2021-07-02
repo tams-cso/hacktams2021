@@ -7,6 +7,7 @@
     justify-content: center;
 
     background: linear-gradient(black 5%, #4701a9 50%, #9400cb 80%);
+    position:relative;
 }
 
 .home-container {

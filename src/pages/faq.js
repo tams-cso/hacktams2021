@@ -6,7 +6,7 @@ import './faq.css';
 class FAQ extends React.Component {
     render() {
         return (
-            <div className="faq">
+            <div className="faq" id="faq">
                 <h1>FAQ</h1>
                 <div className="q_and_a">
                     <div className="col-left">
