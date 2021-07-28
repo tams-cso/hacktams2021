@@ -1,6 +1,9 @@
 import React from 'react';
 import Speaker from '../components/speaker';
 import data from '../data/speakerData.json';
+import Side from '../images/hologram-side-02.svg';
+import Base from '../images/hologram-base.svg';
+import Frame from '../images/hologram-frame.svg';
 import './speakers.css';
 
 class Speakers extends React.Component {
@@ -32,7 +35,11 @@ class Speakers extends React.Component {
                 <div className="speakers-container">
                     <div className="speakers-menu">{speakers}</div>
                     <div className="speakers-display">
-                        <div className="speakers-screen"></div>
+                        <img src={Side} alt="speakers" className="side"></img>
+                    </div>
+                    <div className="speakers-screen">
+                        <img src={Frame} alt="speaker frame" className="display"></img>
+                        <img src={Base} alt="base" className="display"></img>
                     </div>
                 </div>
             </div>
