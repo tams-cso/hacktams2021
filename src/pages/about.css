@@ -99,3 +99,7 @@
 .item {
     margin: 0 3rem 0 3rem;
 }
+
+#selected{
+    background-color: #202020;
+}

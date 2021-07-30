@@ -12,12 +12,12 @@ class Navbar extends React.Component {
             <div className="navbar" ref={this.props.reference}>
                 <div className="item">
                     <a href="/#about">
-                        about
+                        About
                     </a>
                 </div>
                 <div className="item">
                     <a href="/#speakers">
-                        speakers
+                        Speakers
                     </a>
                 </div>
                 <div className="item">
@@ -27,7 +27,7 @@ class Navbar extends React.Component {
                 </div>
                 <div className="item">
                     <a href="/#sponsors">
-                        sponsors
+                        Sponsors
                     </a>
                 </div>
                 <div className="item">
