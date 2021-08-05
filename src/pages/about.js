@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import Top from '../images/about_top.svg';
+import Top from '../images/about_section_lights.svg';
 import Left from '../images/about_left.svg';
 import Right from '../images/about_right.svg';
 
@@ -25,17 +25,12 @@ class About extends React.Component {
                 <div className="info">
                     <h1>About</h1>
                     <p>
-                        hackTAMS is an annual hackathon organized by students at the Texas Academy of Mathematics and
-                        Science. Our event brings high school students from across the DFW area to showcase their talent and
-                        creativity. A hackathon is a coding marathon where students design, build, and present a project —
-                        typically software, and sometimes hardware — within a short period of time. Students have access to
-                        mentors, speakers, workshops, and networking opportunities while working on their project.
-                </p>
-                    <p>
-                        A hackathon is a coding marathon where students design, build, and present a project — typically
-                        software, and sometimes hardware — within a short period of time. Students have access to mentors,
-                        speakers, workshops, and networking opportunities while working on their project.
-                </p>
+                        hackTAMS is an annual hackathon organized by students at the Texas Academy of Mathematics and Science. Our event brings high school students from across the state of Texas to showcase their talent and creativity. A hackathon is a coding marathon where students design, build, and present a project — typically software, and sometimes hardware — within a short period of time. Students will have access to mentors, speakers, workshops, and networking opportunities while working on their project.
+                        Due to COVID-19, this year’s hackTAMS will be held virtually.
+                        <br/>
+                        <br/>
+                        Below are the tracks for this year.
+                    </p>
                     <div className="tracks-container">
                         <div className="track-switch-container">
                             <div
@@ -48,7 +43,7 @@ class About extends React.Component {
                                 className={`track-switch middle ${this.state.toggle}-active`}
                                 onClick={this.changeSwitch.bind(this, 'middle')}
                             >
-                                <h3>Design</h3>
+                                <h3>Prototype</h3>
                             </div>
                             <div
                                 className={`track-switch right ${this.state.toggle}-active`}
@@ -61,31 +56,32 @@ class About extends React.Component {
                             <p>
                                 The Hack track is geared towards students who have experience in computer science and
                                 engineering. Students will design and prototype a project using their technical skills and the
-                        latest technologies. For example projects, consider looking at{' '}
+                                latest technologies. For example projects, consider looking at{' '}
                                 <a href="https://devpost.com/software" target="_blank" rel="noreferrer">
                                     previous projects on Devpost
-                        </a>
-                        .
-                    </p>
+                                </a>
+                                .
+                            </p>
                         </div>
                         <div className={`track design ${this.state.toggle}`}>
                             <p>
-                                To be decided.
-                    </p>
+                                The Prototype track is for participants who have little to no coding experience.
+                                This track will allow participants without coding backgrounds to use their creativity to come up with an idea and present it to a panel of judges.
+                            </p>
                         </div>
                         <div className={`track learn ${this.state.toggle}`}>
                             <p>
-                                The Learn track is for students who have not as much experience in coding. Take this as an
-                                opportunity to add new skills to your toolbox and put them to your first use! Here are some of
-                                the “starting kits” we will provide to give you a head-start on your project: Web Dev, Machine
-                                Learning, Video Games.
-                    </p>
+                                The Learn track is for participants who do not have as much experience in coding. 
+                                This track is an opportunity to add new skills to your toolbox and use them first-hand! 
+                                The Learn track will have in-depth workshops and code “starter kits” to provide participants with the skills needed to build their project. 
+                                This year’s Learn track will teach Web Development and Video Game Development.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div className="bottom">
                     <img src={Left} alt="chairs" className="item"></img>
-                    <img src={Right} alt="hotel" className="item"></img>
+                    <img src={Right} alt="hotel" ></img>
                 </div>
             </div>
         );

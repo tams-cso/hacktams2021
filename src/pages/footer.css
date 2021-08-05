@@ -32,10 +32,20 @@
     transform: scale(1.30);
 }
 
+.bottom {
+    display: flex;
+}
+
+.bottom-item {
+    transform: scale(0.9);
+    gap: 10rem;
+}
+
 .footer-info {
     margin: 1rem 0;
     font-size: 1rem;
     color: white;
+    text-align: center;
 }
 
 .footer-links {

@@ -4,6 +4,8 @@ import { ReactComponent as Sign } from '../images/contact-us-sign.svg';
 import { ReactComponent as Facebook } from '../images/facebook.svg';
 import { ReactComponent as Instagram } from '../images/instagram.svg';
 import { ReactComponent as Twitter } from '../images/twitter.svg';
+import { ReactComponent as BottomSign } from '../images/footer_sign.svg';
+import { ReactComponent as Table } from '../images/footer_table.svg';
 
 import './footer.css';
 
@@ -34,10 +36,18 @@ class Footer extends React.Component {
                     />
                 </div>
                 <p className="footer-info">
-                    Contact us at <a href="mailto: team@hacktams.org">team@hacktams.org</a>!<br></br>
+                    Contact us at <a href="mailto: team@hacktams.org">team@hacktams.org</a>!<br/>
                     Want to sponsor us? Email us at{' '}
                     <a href="mailto:sponsorship@hacktams.org">sponsorship@hacktams.org</a>!
                 </p>
+                <div className="bottom">
+                    <BottomSign
+                        alt="Bottom Sign"
+                        className="bottom-item" />
+                    <Table
+                        alt="Bottom Sign"
+                        className="bottom-item" />
+                </div>
             </div>
         );
     }
