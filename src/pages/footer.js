@@ -35,18 +35,18 @@ class Footer extends React.Component {
                         onClick={this.openSite.bind(this, 'https://twitter.com/thehackTAMS')}
                     />
                 </div>
-                <p className="footer-info">
-                    Contact us at <a href="mailto: team@hacktams.org">team@hacktams.org</a>!<br/>
-                    Want to sponsor us? Email us at{' '}
-                    <a href="mailto:sponsorship@hacktams.org">sponsorship@hacktams.org</a>!
-                </p>
                 <div className="bottom">
-                    <BottomSign
-                        alt="Bottom Sign"
-                        className="bottom-item" />
-                    <Table
-                        alt="Bottom Sign"
-                        className="bottom-item" />
+                    <div className="sign">
+                        <BottomSign
+                            alt="Bottom Sign"
+                            className="bottom-sign" />
+                        <p className="footer-info">
+                            Contact us at <a href="mailto: team@hacktams.org">team@hacktams.org</a>!<br />
+                            Want to sponsor us?<br/> Email us at{' '}
+                            <a href="mailto:sponsorship@hacktams.org">sponsorship@hacktams.org</a>!
+                        </p>
+                    </div>
+                    <Table alt="Bottom Table"/>
                 </div>
             </div>
         );
