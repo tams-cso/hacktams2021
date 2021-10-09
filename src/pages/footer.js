@@ -4,6 +4,8 @@ import { ReactComponent as Sign } from '../images/contact-us-sign.svg';
 import { ReactComponent as Facebook } from '../images/facebook.svg';
 import { ReactComponent as Instagram } from '../images/instagram.svg';
 import { ReactComponent as Twitter } from '../images/twitter.svg';
+import { ReactComponent as BottomSign } from '../images/footer_sign.svg';
+import { ReactComponent as Table } from '../images/footer_table.svg';
 
 import './footer.css';
 
@@ -33,11 +35,19 @@ class Footer extends React.Component {
                         onClick={this.openSite.bind(this, 'https://twitter.com/thehackTAMS')}
                     />
                 </div>
-                <p className="footer-info">
-                    Contact us at <a href="mailto: team@hacktams.org">team@hacktams.org</a>!<br></br>
-                    Want to sponsor us? Email us at{' '}
-                    <a href="mailto:sponsorship@hacktams.org">sponsorship@hacktams.org</a>!
-                </p>
+                <div className="bottom">
+                    <div className="sign">
+                        <BottomSign
+                            alt="Bottom Sign"
+                            className="bottom-sign" />
+                        <p className="footer-info">
+                            Contact us at <a href="mailto: team@hacktams.org">team@hacktams.org</a>!<br />
+                            Want to sponsor us?<br/> Email us at{' '}
+                            <a href="mailto:sponsorship@hacktams.org">sponsorship@hacktams.org</a>!
+                        </p>
+                    </div>
+                    <Table alt="Bottom Table"/>
+                </div>
             </div>
         );
     }

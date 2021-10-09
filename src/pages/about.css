@@ -13,6 +13,7 @@
     box-shadow: 0 0 15px #ffffff;
     background-color: #303030;
     margin-bottom: 1rem;
+    height: 17rem;
 }
 
 .track-switch-container {
@@ -38,7 +39,6 @@
 
 .track-switch:hover {
     box-shadow: 0 0 0.5rem 0.05rem #dddddd;
-    border: 0.2rem solid #303030;
 }
 
 .track {
@@ -87,19 +87,22 @@
 }
 
 .top {
-    margin-top: -29px;
+    margin-top: -22px;
     transform: scale(0.85);
 }
 
 .bottom {
+    display: flex;
+    justify-content: center;
     transform: scale(0.9);
-    margin-bottom: -1.1rem;
+    margin-bottom: -0.8rem;
 }
 
 .item {
-    margin: 0 3rem 0 3rem;
+    margin-bottom: -1.2rem;
+    margin-right: 3rem;
 }
 
-#selected{
-    background-color: #202020;
+p {
+    margin-bottom: 4rem;
 }
