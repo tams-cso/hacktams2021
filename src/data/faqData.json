@@ -1,7 +1,8 @@
 [
     {
         "question": "Am I eligible to attend?",
-        "answer": "To attend as a hacker, you need to be a high school student and between the ages of 13 and 18 years old. Unfortunately, we are unable to accept college students at this time. However, we’ll greatly appreciate it if you can help out high school students by signing up to volunteer as a mentor! Additionally, you can consider attending HackUNT, a college hackathon organized on the same campus as hackTAMS!"
+        "answer": "To attend as a hacker, you need to be a high school student and between the ages of 13 and 18 years old. Unfortunately, we are unable to accept college students at this time. However, we’ll greatly appreciate it if you can help out high school students by signing up to volunteer as a mentor! Additionally, you can consider attending HackUNT, a college hackathon organized on the same campus as hackTAMS!",
+        "big": "yes"
     },
     {
         "question": "When can I register?",
