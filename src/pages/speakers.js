@@ -10,16 +10,21 @@ class Speakers extends React.Component {
     constructor(props) {
         super(props);
 
-        this.state = {};
+        this.state = {
+            activeSpeakerInfo: { name: '', img: '', desc: '' },
+        };
     }
 
     createSpeakers = () => {
         const speakerList = [];
-        // speaker data will be something about image and then name and description
         data.forEach((speaker) => {
-            speakerList.push(<Speaker key="" info={speaker} />);
+            speakerList.push(<Speaker key="" info={speaker} setActiveSpeaker={this.setActiveSpeaker} />);
         });
         return speakerList;
+    };
+
+    setActiveSpeaker = (info) => {
+        this.setState({ activeSpeakerInfo: info });
     };
 
     render() {
@@ -33,11 +38,15 @@ class Speakers extends React.Component {
                     interested in speaking at our event!
                 </p>
                 <div className="speakers-container">
-                    <div className="speakers-menu">{speakers}</div>
                     <div className="speakers-display">
+                        <div className="speakers-menu">{speakers}</div>
                         <img src={Side} alt="speakers" className="side"></img>
                     </div>
                     <div className="speakers-screen">
+                        <div className="speakers-info">
+                            <h4>{this.state.activeSpeakerInfo.name}</h4>
+                            <p>{this.state.activeSpeakerInfo.desc}</p>
+                        </div>
                         <img src={Frame} alt="speaker frame" className="display"></img>
                         <img src={Base} alt="base" className="display"></img>
                     </div>

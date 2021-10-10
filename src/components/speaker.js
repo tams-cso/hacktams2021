@@ -5,9 +5,7 @@ class Speaker extends React.Component {
     render() {
         return (
             <div className="speaker">
-                <img className="speaker-img" alt="speaker-img" />
-                <p className="speaker-name">{this.props.info.name}</p>
-                {/* TODO short description here maybe, or just image and name*/}
+                <img src={this.props.info.img} onClick={() => this.props.setActiveSpeaker(this.props.info)} />
             </div>
         );
     }
