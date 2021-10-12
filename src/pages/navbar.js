@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './navbar.css';
+import Logo from'../images/logo-2021.svg';
 
 class Navbar extends React.Component {
     openSite = (site) => {
@@ -9,32 +10,21 @@ class Navbar extends React.Component {
 
     render() {
         return (
-            <div className="navbar" ref={this.props.reference}>
-                <div className="item">
-                    <a href="/#about">
-                        About
+            <div className="navbar" ref={this.props.reference} id="navbar">
+                <header>
+                    <a class="logo" href="/#navbar">
+                        <img src={Logo} alt="logo" className="logoimg"/>
                     </a>
-                </div>
-                <div className="item">
-                    <a href="/#speakers">
-                        Speakers
-                    </a>
-                </div>
-                <div className="item">
-                    <a href="/#faq">
-                        FAQ
-                    </a>
-                </div>
-                <div className="item">
-                    <a href="/#sponsors">
-                        Sponsors
-                    </a>
-                </div>
-                <div className="item">
-                    <a href="/#footer">
-                        Contact
-                    </a>
-                </div>
+                    <nav>
+                        <ul class="nav__links">
+                            <li><a href="/#abo`ut">About</a></li>
+                            <li><a href="/#speakers">Speakers</a></li>
+                            <li><a href="/#faq">FAQ</a></li>
+                            <li><a href="/#sponsors">Sponsors</a></li>
+                        </ul>
+                    </nav>
+                    <a class="cta" href="/#footer">Contact</a>
+                </header>
             </div>
         );
     }

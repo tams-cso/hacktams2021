@@ -41,7 +41,7 @@ class About extends React.Component {
 
     render() {
         return (
-            <div className="about">
+            <div className="about" id="about">
                 <img src={Top} alt="lights" className="top"></img>
                 <div className="info">
                     <h1>About</h1>
