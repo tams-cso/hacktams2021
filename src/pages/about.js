@@ -23,6 +23,7 @@ class About extends React.Component {
         document.getElementsByClassName("left")[0].id = "selected";
         document.getElementsByClassName("middle")[0].id = "";
         document.getElementsByClassName("right")[0].id = "";
+        document.getElementById("selected").classList.add("shadow");
     }
 
     changeState_m = (dir_p) => {
@@ -30,6 +31,7 @@ class About extends React.Component {
         document.getElementsByClassName("left")[0].id = "";
         document.getElementsByClassName("middle")[0].id = "selected";
         document.getElementsByClassName("right")[0].id = "";
+        document.getElementById("selected").classList.add("shadow");
     }
 
     changeState_r = (dir_p) => {
@@ -37,8 +39,8 @@ class About extends React.Component {
         document.getElementsByClassName("left")[0].id = "";
         document.getElementsByClassName("middle")[0].id = "";
         document.getElementsByClassName("right")[0].id = "selected";
+        document.getElementById("selected").classList.add("shadow");
     }
-
     render() {
         return (
             <div className="about">
@@ -46,10 +48,10 @@ class About extends React.Component {
                 <div className="info">
                     <h1>About</h1>
                     <p>
-                        hackTAMS is an annual hackathon organized by students at the Texas Academy of Mathematics and Science. Our event brings high school students from across the state of Texas to showcase their talent and creativity. A hackathon is a coding marathon where students design, build, and present a project — typically software, and sometimes hardware — within a short period of time. Students will have access to mentors, speakers, workshops, and networking opportunities while working on their project.
-                        Due to COVID-19, this year’s hackTAMS will be held virtually.
-                        <br/>
-                        <br/>
+                        hackTAMS is an annual hackathon organized by students at the Texas Academy of Mathematsics and Science. Our event brings high school students from across the state of Texas to showcase their talent and creativity. A hackathon is a coding marathon where students design, build, and present a project — typically software, and sometimes hardware — within a short period of time. Students will have access to mentors, speakers, workshops, and networking opportunities while working on their project.
+                        Due to COVID-19, this year’s hackTAMS will be held <b>virtually</b>.
+                        <br />
+                        <br />
                         Below are the tracks for this year.
                     </p>
                     <div className="tracks-container">
@@ -57,7 +59,7 @@ class About extends React.Component {
                             <div
                                 className={`track-switch left ${this.state.toggle}-active`}
                                 onClick={this.changeState_l.bind(this, 'left')}
-                                id="selected"
+                                id=""
                             >
                                 <h3>Hack</h3>
                             </div>
@@ -80,7 +82,9 @@ class About extends React.Component {
                             <p>
                                 The Hack track is geared towards students who have experience in computer science and
                                 engineering. Students will design and prototype a project using their technical skills and the
-                                latest technologies. For example projects, consider looking at{' '}
+                                latest technologies.
+                                <br></br>
+                                For example projects, consider looking at{' '}
                                 <a href="https://devpost.com/software" target="_blank" rel="noreferrer">
                                     previous projects on Devpost
                                 </a>
@@ -95,10 +99,11 @@ class About extends React.Component {
                         </div>
                         <div className={`track learn ${this.state.toggle}`}>
                             <p>
-                                The Learn track is for participants who do not have as much experience in coding. 
-                                This track is an opportunity to add new skills to your toolbox and use them first-hand! 
-                                The Learn track will have in-depth workshops and code “starter kits” to provide participants with the skills needed to build their project. 
-                                This year’s Learn track will teach Web Development and Video Game Development.
+                                The Learn track is for participants who do not have much experience in coding.
+                                This track is an opportunity to add new skills to your toolbox and use them first-hand!
+                                The Learn track will have in-depth workshops and code “starter kits” to provide participants with the skills needed to build their project.
+                                <br></br>
+                                This year’s Learn track will teach <b>Web Development</b> and <b>Video Game Development</b>.
                             </p>
                         </div>
                     </div>
