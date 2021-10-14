@@ -14,6 +14,7 @@ class FAQ extends React.Component {
                         <FAQBox key={data[1].question} question={data[1].question} answer={data[1].answer} />
                         <FAQBox key={data[2].question} question={data[2].question} answer={data[2].answer} />
                         <FAQBox key={data[3].question} question={data[3].question} answer={data[3].answer} />
+                        <FAQBox key={data[4].question} question={data[4].question} answer={data[4].answer} />
                     </div>
                     <div className="col-right">
                         <FAQBox key={data[4].question} question={data[4].question} answer={data[4].answer} />
