@@ -25,20 +25,21 @@
     width: 10rem;
     margin: 1rem;
     margin-bottom: 0.5rem;
-    border: 0.2rem solid #202020;
+    border: 0.1rem solid white;
     border-radius: 0.5rem;
 
     font-weight: 700;
     font-size: 1.3rem;
-    background-color: #4a4a4a;
+    background-color: rgb(58, 171, 212);
     transition: 0.3s;
     cursor: pointer;
 
     flex-direction: row;
+    
 }
 
 .track-switch:hover {
-    box-shadow: 0 0 0.5rem 0.05rem #dddddd;
+    box-shadow: 0 0 0.5rem 0.05rem rgb(58, 171, 212);
 }
 
 .track {
@@ -69,10 +70,6 @@
     display: none;
 }
 
-.track.hack.left {
-    display: block;
-}
-
 .track.design.middle {
     display: block;
 }
@@ -89,6 +86,10 @@
 .top {
     margin-top: -22px;
     transform: scale(0.85);
+}
+
+.shadow {
+    box-shadow: 0 0 0.5rem 0.05rem rgb(58, 171, 212);
 }
 
 .bottom {
