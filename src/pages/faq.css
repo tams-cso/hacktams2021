@@ -4,6 +4,44 @@
     background-color: #212121;
 }
 
+.faq {
+    /*padding: 5rem 15vw;*/
+    padding: 5rem 2rem;
+    background-color: #212121;
+}
+
+.q_and_a{
+    display:flex;
+    flex-direction:row;
+}
+
+.col-left{
+    margin: 0.5rem;
+    margin-right:5rem;
+    width: 80%
+}
+
+.col-right{
+    margin: 0.5rem;
+    margin-left:5rem;
+    width: 80%
+}
+
+.faq-dropdown-button-container {
+    background-color: lightgray;
+}
+
+.faq-dropdown-section {
+    background-color: rgb(31, 77, 31);
+    color: white;
+}
+
+.closed {
+    height: 0px;
+    background-color: black;
+}
+
+/*
 .faq-container {
     margin: 2rem;
     display: grid;
@@ -58,16 +96,17 @@
     overflow: hidden;
     text-overflow: clip;
 
-    /* Expand the answer box when clicked */
+    //Expand the answer box when clicked
     height: 0;
     transition: height 0.5s;
 }
 
 .answer-wrapper.show {
-    /* This can alternatively be coded to be specified per question using js */
+    //This can alternatively be coded to be specified per question using js 
     height: 4rem;
 }
 
 .special {
     height: 15rem;
 }
+*/
