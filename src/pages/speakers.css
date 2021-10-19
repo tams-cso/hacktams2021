@@ -18,7 +18,7 @@
     display: grid;
     position: absolute;
     width: 100%;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     grid-template-rows: auto;
 
     justify-content: space-evenly;
@@ -39,4 +39,9 @@
 .speakers-info {
     padding: 3vw;
     position: absolute;
+}
+
+
+.speaker-desc {
+    font-size: 50%;
 }

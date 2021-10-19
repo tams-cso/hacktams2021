@@ -18,7 +18,7 @@ class Speakers extends React.Component {
     createSpeakers = () => {
         const speakerList = [];
         data.forEach((speaker) => {
-            speakerList.push(<Speaker key="" info={speaker} setActiveSpeaker={this.setActiveSpeaker} />);
+            speakerList.push(<Speaker key={speaker.name} info={speaker} setActiveSpeaker={this.setActiveSpeaker} />);
         });
         return speakerList;
     };
@@ -45,7 +45,7 @@ class Speakers extends React.Component {
                     <div className="speakers-screen">
                         <div className="speakers-info">
                             <h4>{this.state.activeSpeakerInfo.name}</h4>
-                            <p>{this.state.activeSpeakerInfo.desc}</p>
+                            <p className="speaker-desc">{this.state.activeSpeakerInfo.desc}</p>
                         </div>
                         <img src={Frame} alt="speaker frame" className="display"></img>
                         <img src={Base} alt="base" className="display"></img>
