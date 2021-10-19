@@ -15,6 +15,18 @@ header {
     background-color: #202020;
 }
 
+.navbar {
+    height: 3.9rem;
+}
+
+.nav-hide {
+    color: #202020;
+}
+
+.nav-hide:hover {
+    color: #202020;
+}
+
 .logo {
     position: sticky;
     cursor: pointer;
@@ -50,12 +62,12 @@ header {
     background-color: #3ABFEF; 
     border: none;
     border-radius: 50px;
-    cursor: pointer;
-    transition: background-color 0.3s ease 0s;
+    transition: 0.3s ease 0s;
     color: #fff;
 }
 
 .cta:hover {
     background-color: #087399;
     color: #fff;
+    cursor: pointer;
 }  

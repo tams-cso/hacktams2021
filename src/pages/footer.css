@@ -41,6 +41,7 @@
 }
 
 .footer-info {
+    position: absolute;
     font-size: 0.7rem;
     color: white;
     text-align: center;

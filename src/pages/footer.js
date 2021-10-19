@@ -37,16 +37,14 @@ class Footer extends React.Component {
                 </div>
                 <div className="bottom">
                     <div className="sign">
-                        <BottomSign
-                            alt="Bottom Sign"
-                            className="bottom-sign" />
                         <p className="footer-info">
                             Contact us at <a href="mailto: team@hacktams.org">team@hacktams.org</a>!<br />
-                            Want to sponsor us?<br/> Email us at{' '}
-                            <a href="mailto:sponsorship@hacktams.org">sponsorship@hacktams.org</a>!
+                            Want to sponsor us?
+                            <br /> Email us at <a href="mailto:sponsorship@hacktams.org">sponsorship@hacktams.org</a>!
                         </p>
+                        <BottomSign alt="Bottom Sign" className="bottom-sign" />
                     </div>
-                    <Table alt="Bottom Table"/>
+                    <Table alt="Bottom Table" />
                 </div>
             </div>
         );
