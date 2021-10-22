@@ -1,6 +1,6 @@
 import React from 'react';
 import data from '../data/faqData.json';
-import { FAQBox } from '../components/faq-box';
+import FAQBox from '../components/faq-box.js';
 import './faq.css';
 
 class FAQ extends React.Component {
@@ -16,11 +16,11 @@ class FAQ extends React.Component {
                         <FAQBox key={data[3].question} question={data[3].question} answer={data[3].answer} />
                         <FAQBox key={data[4].question} question={data[4].question} answer={data[4].answer} />
                     </div>
-                    <div className="faq-side right">
-                        <FAQBox color="#6270F0" question={data[4].question} answer={data[4].answer} />
-                        <FAQBox color="#6270F0" question={data[5].question} answer={data[5].answer} />
-                        <FAQBox color="#6270F0" question={data[6].question} answer={data[6].answer} />
-                        <FAQBox color="#6270F0" question={data[7].question} answer={data[7].answer} />
+                    <div className="col-right">
+                        <FAQBox key={data[5].question} question={data[5].question} answer={data[5].answer} />
+                        <FAQBox key={data[6].question} question={data[6].question} answer={data[6].answer} />
+                        <FAQBox key={data[7].question} question={data[7].question} answer={data[7].answer} />
+                        <FAQBox key={data[8].question} question={data[8].question} answer={data[8].answer} />
                     </div>
                 </div>
             </div>

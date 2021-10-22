@@ -1,12 +1,12 @@
 .home {
     /* padding: 5rem 15vw; */
 
-    /* height: calc(100vh - 10rem); */
-    height: 100vh;
+    height: calc(100vh - 3.9rem);
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
 
-    background: linear-gradient(black 5%, #4701a9 50%, #9400cb 80%);
+    background: linear-gradient(#202020 5%, #4701a9 50%, #9400cb 80%);
     position:relative;
 }
 

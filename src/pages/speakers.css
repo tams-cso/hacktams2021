@@ -1,30 +1,48 @@
 .speakers {
     padding: 5rem 15vw;
     background-color: #2e2e2e;
-    text-align: center;
 }
 
 .speakers-container {
     display: flex;
 }
 
-.speakers-menu {
-    display: flex;
-    flex-direction: row;
-}
-
 .speakers-display {
-    display: flex;
-    flex-direction: row;
+    position: relative;
     margin: 3rem;
     width: 100%;
     transform: scale(1.2);
+    transition: 2s;
+}
+
+.speakers-menu {
+    display: grid;
+    position: absolute;
+    width: 100%;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+
+    justify-content: space-evenly;
+    justify-items: end;
+    align-content: space-evenly;
+    align-items: center;
 }
 
 .speakers-screen {
     display: flex;
     flex-direction: column;
+    position: relative;
     margin: 3rem;
     width: 100%;
     transform: scale(1.2);
+}
+
+.speakers-info {
+    padding: 3vw;
+    position: absolute;
+}
+
+
+.speaker-desc {
+    font-size: 50%;
 }

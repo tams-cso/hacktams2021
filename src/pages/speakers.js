@@ -10,16 +10,21 @@ class Speakers extends React.Component {
     constructor(props) {
         super(props);
 
-        this.state = {};
+        this.state = {
+            activeSpeakerInfo: { name: '', img: '', desc: '' },
+        };
     }
 
     createSpeakers = () => {
         const speakerList = [];
-        // speaker data will be something about image and then name and description
         data.forEach((speaker) => {
-            speakerList.push(<Speaker key="" info={speaker} />);
+            speakerList.push(<Speaker key={speaker.name} info={speaker} setActiveSpeaker={this.setActiveSpeaker} />);
         });
         return speakerList;
+    };
+
+    setActiveSpeaker = (info) => {
+        this.setState({ activeSpeakerInfo: info });
     };
 
     render() {
@@ -28,16 +33,16 @@ class Speakers extends React.Component {
         return (
             <div className="speakers" id="speakers">
                 <h1>Speakers</h1>
-                <p>
-                    Coming soon! Please email <a href="mailto: team@hacktams.org">team@hacktams.org</a> if you are
-                    interested in speaking at our event!
-                </p>
                 <div className="speakers-container">
-                    <div className="speakers-menu">{speakers}</div>
                     <div className="speakers-display">
+                        <div className="speakers-menu">{speakers}</div>
                         <img src={Side} alt="speakers" className="side"></img>
                     </div>
                     <div className="speakers-screen">
+                        <div className="speakers-info">
+                            <h4>{this.state.activeSpeakerInfo.name}</h4>
+                            <p className="speaker-desc">{this.state.activeSpeakerInfo.desc}</p>
+                        </div>
                         <img src={Frame} alt="speaker frame" className="display"></img>
                         <img src={Base} alt="base" className="display"></img>
                     </div>

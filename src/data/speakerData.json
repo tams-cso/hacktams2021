@@ -1,1 +1,17 @@
-[]
+[
+    {
+        "name": "Eric Su",
+		"desc": "Eric [TAMS '15] currently works at FB as a product specialist. In his role, he works with cross functional partners across the remote presence product team to deliver high quality products for FB's millions of calling users. Prior to his time at FB, he worked at Texas Instruments in technical sales and attended UT Austin for Electrical and Computer Engineering.",
+        "img": "eric-su.jpg"
+    },
+    {
+        "name": "Michael Zhao",
+		"desc": "TAMS Class of 2021. Loves to cook, write code, and paint.",
+        "img": "michael-zhao.jpg"
+    },
+    {
+        "name": "Jeongwoo Choi",
+		"desc": "TAMS Class of 2021",
+        "img": "jeongwoo-choi.jpg"
+    }
+]

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './navbar.css';
+import Logo from '../images/logo-2021.svg';
 
 class Navbar extends React.Component {
     openSite = (site) => {
@@ -9,32 +10,30 @@ class Navbar extends React.Component {
 
     render() {
         return (
-            <div className="navbar" ref={this.props.reference}>
-                <div className="item">
-                    <a href="/#about">
-                        About
+            <div className="navbar" id="navbar">
+                <header>
+                    <a className="logo" href='/#navbar'>
+                        <img src={Logo} alt="logo" className="logoimg" />
                     </a>
-                </div>
-                <div className="item">
-                    <a href="/#speakers">
-                        Speakers
-                    </a>
-                </div>
-                <div className="item">
-                    <a href="/#faq">
-                        FAQ
-                    </a>
-                </div>
-                <div className="item">
-                    <a href="/#sponsors">
-                        Sponsors
-                    </a>
-                </div>
-                <div className="item">
-                    <a href="/#footer">
-                        Contact
-                    </a>
-                </div>
+                    <nav>
+                        <ul className="nav__links">
+                            <li>
+                                <a className="nav-link" href="/#about">About</a>
+                            </li>
+                            <li>
+                                <a className="nav-link" href="/#speakers">Speakers</a>
+                            </li>
+                            <li>
+                                <a className="nav-link" href="/#faq">FAQ</a>
+                            </li>
+                            <li>
+                                <a className="nav-link" href="/#footer">Contact Us</a>
+                            </li>
+                            {/* <li><a href="/#sponsors">Sponsors</a></li> */}
+                        </ul>
+                    </nav>
+                    <a className="nav-hide" href="/#navbar">nothing</a>
+                </header>
             </div>
         );
     }

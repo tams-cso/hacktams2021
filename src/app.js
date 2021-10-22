@@ -4,7 +4,7 @@ import Navbar from './pages/navbar'
 import About from './pages/about';
 import Speakers from './pages/speakers';
 import FAQ from './pages/faq';
-import Sponsors from './pages/sponsors';
+// import Sponsors from './pages/sponsors';
 import Footer from './pages/footer';
 import './app.css';
 
@@ -30,8 +30,8 @@ class App extends React.Component {
                 <div className="section-break sb2" />
                 <FAQ reference={this.faq} />
                 <div className="section-break sb3" />
-                <Sponsors reference={this.sponsors} />
-                <div className="section-break sb4" />
+                {/* <Sponsors reference={this.sponsors} />
+                <div className="section-break sb4" /> */}
                 <Footer reference={this.footer} />
             </div>
         );

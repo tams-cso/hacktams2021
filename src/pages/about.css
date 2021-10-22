@@ -13,13 +13,24 @@
     box-shadow: 0 0 15px #ffffff;
     background-color: #303030;
     margin-bottom: 1rem;
-    height: 17rem;
+    min-height: 17rem;
 }
 
 .track-switch-container {
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
+
+@media screen and (max-width: 1000px) {
+    .track-switch-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 
 .track-switch {
     width: 10rem;
@@ -71,11 +82,11 @@
 }
 
 .track.design.middle {
-    display: block;
+    display: flex;
 }
 
 .track.learn.right {
-    display: block;
+    display: flex;
 }
 
 .break {
@@ -96,7 +107,7 @@
     display: flex;
     justify-content: center;
     transform: scale(0.9);
-    margin-bottom: -0.8rem;
+    margin-bottom: -0.9rem;
 }
 
 .item {
