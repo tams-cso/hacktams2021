@@ -14,6 +14,7 @@ class Home extends React.Component {
             <div className="home" id="home" >
                 <div className="home-container">
                     <h1 className="home-title">hackTAMS</h1>
+                    <h1 className="home-title">Fall 2021</h1>
                     <div className="home-register" onClick={this.submit}>
                         Register Now
                     </div>

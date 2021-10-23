@@ -4,27 +4,23 @@
     background-color: #212121;
 }
 
-.faq {
-    /*padding: 5rem 15vw;*/
-    padding: 5rem 2rem;
-    background-color: #212121;
+.q_and_a {
+    display: flex;
+    flex-direction: row;
+    padding: 0 5rem;
+    justify-content: space-evenly;
 }
 
-.q_and_a{
-    display:flex;
-    flex-direction:row;
-}
-
-.col-left{
+.col-left {
     margin: 0.5rem;
-    margin-right:5rem;
-    width: 80%
+    /* margin-right: 5rem; */
+    width: 80%;
 }
 
-.col-right{
+.col-right {
     margin: 0.5rem;
-    margin-left:5rem;
-    width: 80%
+    /* margin-left: 5rem; */
+    width: 80%;
 }
 
 .faq-dropdown-button-container {
