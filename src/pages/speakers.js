@@ -1,9 +1,9 @@
 import React from 'react';
 import Speaker from '../components/speaker';
-import data from '../data/speakerData.json';
 import Side from '../images/hologram-side-02.svg';
 import Base from '../images/hologram-base.svg';
 import Frame from '../images/hologram-frame.svg';
+import data from '../data/speakerData.json';
 import './speakers.css';
 
 class Speakers extends React.Component {
