@@ -57,6 +57,12 @@ h3 {
     z-index: 1;
 }
 
+.home-break {
+    height: 1.6rem;
+    position: relative;
+    z-index: 1;
+}
+
 .sb1 {
     background-color: #555555;
 }
