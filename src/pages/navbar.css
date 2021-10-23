@@ -17,6 +17,11 @@
     padding: 0.2rem;
     margin: 0.8rem;
     z-index: 3;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
 }
 
 .logo {
