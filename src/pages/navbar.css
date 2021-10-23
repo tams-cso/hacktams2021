@@ -6,7 +6,7 @@ html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-} 
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -38,7 +38,6 @@ header {
     height: 2rem;
 }
 
-
 .nav__links {
     list-style: none;
     display: flex;
@@ -59,7 +58,7 @@ header {
 
 .cta {
     padding: 9px 25px;
-    background-color: #3ABFEF; 
+    background-color: #3abfef;
     border: none;
     border-radius: 50px;
     transition: 0.3s ease 0s;
@@ -70,4 +69,4 @@ header {
     background-color: #087399;
     color: #fff;
     cursor: pointer;
-}  
+}
