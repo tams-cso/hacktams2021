@@ -1,72 +1,33 @@
-html {
-    scroll-behavior: smooth;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-header {
+.navbar {
     display: flex;
-    justify-content: space-between;
+    padding: 0 2rem;
     align-items: center;
-    padding: 20px 10%;
+    justify-content: space-between;
+    height: 3.9rem;
     background-color: #202020;
 }
 
-.navbar {
-    height: 3.9rem;
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.nav-hide {
-    color: #202020;
-}
-
-.nav-hide:hover {
-    color: #202020;
+.nav-link {
+    padding: 0.2rem;
+    margin: 0.8rem;
+    z-index: 3;
 }
 
 .logo {
-    position: sticky;
-    cursor: pointer;
-    font-weight: bold;
-    color: #fff;
+    margin: 1rem;
+    margin-top: 1.5rem;
 }
 
 .logoimg {
-    height: 2rem;
+    height: 2.5rem;
 }
 
-.nav__links {
-    list-style: none;
-    display: flex;
-}
-
-.nav__links li {
-    padding: 0px 20px;
-}
-
-.nav__links li a {
-    transition: color 0.3s ease 0s;
-    color: #fff;
-}
-
-.nav__links li a:hover {
-    color: #1b98c4;
-}
-
-.cta {
-    padding: 9px 25px;
-    background-color: #3abfef;
-    border: none;
-    border-radius: 50px;
-    transition: 0.3s ease 0s;
-    color: #fff;
-}
-
-.cta:hover {
-    background-color: #087399;
-    color: #fff;
-    cursor: pointer;
+.filler {
+    z-index: -1;
 }
