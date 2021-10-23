@@ -1,23 +1,23 @@
 [
     {
         "name": "Eric Su",
-		"desc": "Eric [TAMS '15] currently works at FB as a product specialist. In his role, he works with cross functional partners across the remote presence product team to deliver high quality products for FB's millions of calling users. Prior to his time at FB, he worked at Texas Instruments in technical sales and attended UT Austin for Electrical and Computer Engineering.",
+        "desc": "Eric [TAMS '15] currently works at FB as a product specialist. In his role, he works with cross functional partners across the remote presence product team to deliver high quality products for FB's millions of calling users. Prior to his time at FB, he worked at Texas Instruments in technical sales and attended UT Austin for Electrical and Computer Engineering.",
         "img": "eric-su.jpg"
     },
     {
         "name": "Michael Zhao",
-		"desc": "I’m a first-year computer science major studying at the University of Texas at Dallas. Enjoys coding for fun in my free time, mostly working on frontend UI/UX design projects, as well as full-stack applications and services.",
+        "desc": "I’m a first-year computer science major studying at the University of Texas at Dallas. Enjoys coding for fun in my free time, mostly working on frontend UI/UX design projects, as well as full-stack applications and services.",
         "img": "michael-zhao.jpg",
         "link": "https://michaelzhao.xyz/"
     },
     {
         "name": "Jeongwoo Choi",
-		"desc": "Current first-year student at UT Austin. Enjoys photography, playing violin, and programming. Previous organizer for hackTAMS.",
+        "desc": "Current first-year student at UT Austin. Enjoys photography, playing violin, and programming. Previous organizer for hackTAMS.",
         "img": "jeongwoo-choi.jpg"
     },
     {
         "name": "Kapil Yadav",
-		"desc": "cool kid",
+        "desc": "cool kid",
         "img": "kapil-yadav.jpg"
     }
 ]

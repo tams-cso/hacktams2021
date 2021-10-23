@@ -11,7 +11,7 @@ class Home extends React.Component {
 
     render() {
         return (
-            <div className="home" id="home" >
+            <div className="home" id="home">
                 <div className="home-container">
                     <h1 className="home-title">hackTAMS</h1>
                     <h1 className="home-title">Fall 2021</h1>

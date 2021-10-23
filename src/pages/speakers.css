@@ -42,6 +42,9 @@
     position: absolute;
 }
 
+.speaker-name {
+    font-size: 0.8rem;
+}
 
 .speaker-desc {
     font-size: 50%;

@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from './pages/home';
-import Navbar from './pages/navbar'
+import Navbar from './pages/navbar';
 import About from './pages/about';
 import Speakers from './pages/speakers';
 import FAQ from './pages/faq';
