@@ -12,7 +12,7 @@ class Sponsors extends React.Component {
             sponsorList.push(
                 <img
                     src={`${imageDB}/sponsors/fall2021/${sponsor.img}`}
-                    className={`sponsor${sponsor.tier == 1 ? ' tier1' : ''}`}
+                    className={`sponsor${sponsor.tier === 1 ? ' tier1' : ''}`}
                     alt={sponsor.name}
                     onClick={() => {
                         window.open(sponsor.link, '_blank');
