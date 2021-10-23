@@ -1,39 +1,7 @@
-/*
-import React from "react";
-
-export class FAQBox extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = { show: false };
-    }
-    toggleAnswer = () => {
-        this.setState({ show: !this.state.show });
-    };
-
-    render() {
-        const showAnswer = this.state.show ? "show" : "";
-        return (
-            <div className={`question ${this.props.className}`}>
-                <div className="question-wrapper" onClick={this.toggleAnswer}>
-                    <div
-                        className="question-color"
-                        style={{ backgroundColor: this.props.color }}
-                    ></div>
-                    <p className="question-text">{this.props.question}</p>
-                </div>
-                <p className={`answer-wrapper ${showAnswer}`}>
-                    {this.props.answer}
-                </p>
-            </div>
-        );
-    }
-}
-*/
-
-import React, { Component } from 'react';
+import React from 'react';
 import './faq-box.css';
 
-class FAQBox extends Component {
+class FAQBox extends React.Component {
     constructor(props) {
         super(props);
 
@@ -65,3 +33,36 @@ class FAQBox extends Component {
 }
 
 export default FAQBox;
+
+
+/*
+import React from "react";
+
+export class FAQBox extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = { show: false };
+    }
+    toggleAnswer = () => {
+        this.setState({ show: !this.state.show });
+    };
+
+    render() {
+        const showAnswer = this.state.show ? "show" : "";
+        return (
+            <div className={`question ${this.props.className}`}>
+                <div className="question-wrapper" onClick={this.toggleAnswer}>
+                    <div
+                        className="question-color"
+                        style={{ backgroundColor: this.props.color }}
+                    ></div>
+                    <p className="question-text">{this.props.question}</p>
+                </div>
+                <p className={`answer-wrapper ${showAnswer}`}>
+                    {this.props.answer}
+                </p>
+            </div>
+        );
+    }
+}
+*/
