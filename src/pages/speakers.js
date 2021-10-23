@@ -33,10 +33,10 @@ class Speakers extends React.Component {
         return (
             <div className="speakers" id="speakers">
                 <h1>Speakers</h1>
-                <p>
+                {/* <p>
                     Coming soon! Please email <a href="mailto: team@hacktams.org">team@hacktams.org</a> if you are
                     interested in speaking at our event!
-                </p>
+                </p> */}
                 <div className="speakers-container">
                     <div className="speakers-display">
                         <div className="speakers-menu">{speakers}</div>
