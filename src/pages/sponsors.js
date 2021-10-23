@@ -17,9 +17,9 @@ class Sponsors extends React.Component {
                     onClick={() => {
                         window.open(sponsor.link, '_blank');
                     }}
+                    key={sponsor.name}
                 />
             );
-            console.log(`${imageDB}/sponsors/fall2021/${sponsor.img}`);
         });
         return sponsorList;
     };
