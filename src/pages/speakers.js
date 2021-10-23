@@ -44,7 +44,7 @@ class Speakers extends React.Component {
                     </div>
                     <div className="speakers-screen">
                         <div className="speakers-info">
-                            <h4>{this.state.activeSpeakerInfo.name}</h4>
+                            <h4 className="speaker-name">{this.state.activeSpeakerInfo.name}</h4>
                             <p className="speaker-desc">{this.state.activeSpeakerInfo.desc}</p>
                         </div>
                         <img src={Frame} alt="speaker frame" className="display"></img>
