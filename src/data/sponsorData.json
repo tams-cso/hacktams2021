@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Tiff's Treats",
+        "img": "tiffs.png",
+        "link": "https://www.cookiedelivery.com/",
+        "tier": 1
+    },
+    {
+        "name": "Linode",
+        "img": "linode.png",
+        "link": "https://www.linode.com/"
+    },
+    {
+        "name": "Balsamiq",
+        "img": "balsamiq.png",
+        "link": "https://balsamiq.com/"
+    },
+    {
+        "name": "Repl.it",
+        "img": "replit.png",
+        "link": "https://replit.com/"
+    },
+    {
+        "name": "Interview Cake",
+        "img": "interview-cake.png",
+        "link": "https://www.interviewcake.com/"
+    },
+    {
+        "name": "Taskade",
+        "img": "taskade.png",
+        "link": "https://www.taskade.com/"
+    },
+    {
+        "name": "Coil",
+        "img": "coil.png",
+        "link": "https://coil.com/"
+    },
+    {
+        "name": "AoPS",
+        "img": "aops.png",
+        "link": "https://artofproblemsolving.com/"
+    }
+]
