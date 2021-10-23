@@ -7,7 +7,7 @@ class Navbar extends React.Component {
     render() {
         return (
             <div className="navbar" id="navbar">
-                <a className="nav-link logo" href="/#navbar">
+                <a className="nav-link logo" href="https://2021.hacktams.org/">
                     <img src={Logo} alt="logo" className="logoimg" />
                 </a>
                 <div className="navbar-container">

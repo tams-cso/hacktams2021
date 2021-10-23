@@ -24,6 +24,7 @@ class App extends React.Component {
             <div className="app">
                 <Navbar reference={this.navbar} />
                 <Home reference={this.home} />
+                <div className="home-break sb1" />
                 <About reference={this.about} />
                 <div className="section-break sb1" />
                 <Speakers reference={this.speakers} />
