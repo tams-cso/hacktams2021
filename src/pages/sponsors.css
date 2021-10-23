@@ -12,11 +12,19 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 0 10rem;
+    width: 100vw;
 }
 
 .sponsor {
     height: 3rem;
     margin: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sponsor:hover {
+    transform: scale(1.1);
 }
 
 .tier1 {
