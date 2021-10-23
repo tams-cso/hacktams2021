@@ -20,11 +20,11 @@ class Navbar extends React.Component {
                     <a className="nav-link" href="/#faq">
                         FAQ
                     </a>
-                    <a className="nav-link" href="/#footer">
-                        Contact Us
-                    </a>
                     <a className="nav-link" href="/#sponsors">
                         Sponsors
+                    </a>
+                    <a className="nav-link" href="/#footer">
+                        Contact Us
                     </a>
                 </div>
                 <a className="logo filler" href="/#navbar">
